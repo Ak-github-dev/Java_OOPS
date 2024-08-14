@@ -1,3 +1,54 @@
+OOPS Directory
+
+Intro to OOPS:
+
+Object oriented Programing Language
+
+Entities:
+These are the core, they are made up of two things attributes & behaviours(methods/functions/behaviours).
+They are anything for which we want to store the information in our system.
+It is the table in SQL world
+
+Attributes:
+for example for a User we store attr like(name, email,phone number, DOB,address)
+These form the columns in a table
+
+Behaviours:OR Methods
+What action can the entity perform
+for example attend a quiz- a student should be able to perform it not the instructor
+instructor can log in students dashboard
+
+
+
+
+class Student{
+    int age;
+    String name;
+    float psp;
+    void changeBatch(){...}
+	void joinClass(){..}
+	void coursePause() {...}
+}
+age,name, psp are attributes
+and changebatch,etc are behaviours
+
+
+
+
+Main Concepts in OOPS:
+1 Principle: Abstraction
+3 Pillar: 	Polymorphism
+            Encapsulation
+            Inheritance
+
+pillars support abstraction
+
+Abstraction:
+Idea, something i.e. not in existence.
+Blueprint
+does not take actual memory
+It asks us to envision a complex system in terms of ideas/entities
+
 In Scaler there are entities like: Student, Batch,Contest,Instructors, Class,Assignments,Mentors,etc
 no need to go indepth only high level/birds eye, not go in depth how it should be just the idea/abstarct manner
 
