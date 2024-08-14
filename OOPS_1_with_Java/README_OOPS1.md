@@ -36,7 +36,8 @@ defines how accessible is a member(methods,attributes) of a class.
 class Student{
 access_modifier data_type attr_name;	--> attribute --> public int age, private String name
 access_modifier return_data_type	--> Method --> protected void changeBatch()
-
 	method_name(...){
 	}
 }
+
+Link to Code in IntelliJ [OOPS 1](https://github.com/Ak-github-dev/Java_OOPS/tree/main/OOPS_1_with_Java/src/main/java/org/example/OOPS01/)
